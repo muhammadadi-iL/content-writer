@@ -1,4 +1,4 @@
-    @charset "UTF-8";
+@charset "UTF-8";
 /*---------------------------
  CSS Index
 ****************************
@@ -12296,6 +12296,7 @@ body.template-color-1 {
 
 .single-demo .inner .thumbnail img {
     border-radius: 6px 6px 0 0;
+    max-width: 34rem;
 }
 
 .single-demo .inner .title {
@@ -21510,4 +21511,14 @@ body.white-version .rn-btn-ulderline {
     opacity: 0.5;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+.theme-changed-icon {
+    cursor: pointer;
+    margin-top: 1.3rem;
+}
+
+.theme-changed-icon:hover {
+    cursor: pointer;
+    color: indianred;
 }
